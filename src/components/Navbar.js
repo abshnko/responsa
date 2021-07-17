@@ -5,8 +5,8 @@ import img from "../images/logo.png";
 const Navbar = () => {
   return (
     <nav className="bg-transparent flex items-center justify-between h-34  pt-4 pr-8 font-sans fixed top-0 left-0 right-0">
-      <Link className="logo p-4 pl-10 h-28" path="/">
-        <img className="h-20" src={img} alt="" />
+      <Link className="logo p-4 pl-10 lg:h-28 h-16" path="/">
+        <img className="lg:h-14 h-9" src={img} alt="" />
       </Link>
 
       <div className="md:hidden cursor-pointer px-2">

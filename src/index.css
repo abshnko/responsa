@@ -5,8 +5,6 @@
 
 .home {
   background-image: url("./images/main.jpg");
-}
-
-.hero {
-  height: 3000px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

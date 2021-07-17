@@ -6,8 +6,14 @@ module.exports = {
       fontFamily: {
         sans: ["Oswald", "sans-serif"],
         serif: ["Oswald", "serif"],
-        display: ["Oswald", "sans-serif"],
+        display: ["Sitka", "serif"],
         test: ["Arial", "sans-serif"],
+      },
+      colors: {
+        myRed: "#D02F4A",
+        paleText: "#505050",
+        lightBlue: "#A0CFD3",
+        lightWhite: "#F1F1F1",
       },
     },
   },

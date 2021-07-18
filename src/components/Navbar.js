@@ -4,9 +4,12 @@ import img from "../images/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent flex items-center justify-between h-34  pt-4 pr-8 font-sans fixed top-0 left-0 right-0">
-      <Link className="logo p-4 pl-10 lg:h-28 h-16" path="/">
-        <img className="lg:h-14 h-9" src={img} alt="" />
+    <nav className="bg-transparent flex items-center justify-between h-34 pt-3 pr-8 font-sans fixed top-0 left-0 right-0">
+      <Link
+        className="logo lg:w-40 w-24  items-center justify-center lg:h-28 h-16 flex"
+        path="/"
+      >
+        <img className="lg:h-12 h-9  " src={img} alt="" />
       </Link>
 
       <div className="md:hidden cursor-pointer px-2">
@@ -23,21 +26,18 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      <div className="nav hidden md:block items-stretch">
-        <Link
-          className="p-4 hover:text-red-500 hover:scale-x-150 hover:scale-y-150"
-          path="/"
-        >
-          Услуги
+      <div className=" nav hidden md:block items-stretch">
+        <Link className="p-4 hover:text-red-500 2xl:text-lg " path="/">
+          услуги
         </Link>
-        <Link className="p-4 hover:text-red-500" path="/">
-          О нас
+        <Link className="p-4 hover:text-red-500 2xl:text-lg" path="/">
+          о нас
         </Link>
-        <Link className="p-4 hover:text-red-500" path="/">
-          Материалы
+        <Link className="p-4 hover:text-red-500 2xl:text-lg" path="/">
+          материалы
         </Link>
-        <Link className="p-4 hover:text-red-500" path="/">
-          Контакты
+        <Link className="p-4 hover:text-red-500 2xl:text-lg" path="/">
+          контакты
         </Link>
       </div>
     </nav>

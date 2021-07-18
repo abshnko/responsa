@@ -7,14 +7,14 @@ const Hero = () => {
     <>
       <div className="h-full min-h-screen">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-12  lg:gap-48 md:gap-32 lg:items-center lg:pt-60 pt-40 lg:mr-44 lg:ml-52 mx-11">
-          <div className=" justify-self-center order-last lg:order-first">
-            <p className="font-light lg:text-2xl 2xl:text-4xl text-xl">
-              юридические услуги от профессионалов с многолетним опытом работы
-              блабла
+          <div className=" justify-self-center order-last lg:order-first lg:place-self-start lg:mt-9">
+            <p className="font-normal tracking-wide lg:text-2xl 2xl:text-3xl text-xl text-gray-800 ">
+              RESPONSA PRUDENTIUM — <br />
+              ответы профессиональных юристов в Древнем Риме на запросы частных
+              лиц и адвокатов по тем или иным вопросам юридического характера
             </p>
-            <p className="font-light lg:text-2xl 2xl:text-3xl text-xl mt-4">
-              что-нибудь про ответ знающего человека - потому что мы команда
-              людей, которые знают свое дело и т.д.
+            <p className="font-normal lg:text-2xl 2xl:text-2xl text-xl mt-4 2xl:mt-8 tracking-wide text-paleText">
+              Ubi jus, ibi remedium // Где право, там защита
             </p>
           </div>
           <div className="main-logo justify-self-center lg:h-96 h-52">
@@ -45,7 +45,7 @@ const Hero = () => {
             корпоративным клиентам
           </button>
         </div>
-        <div className="phone top-9 right-20 sm:left-24 lg:top-14 lg:left-36 fixed max-w-xs">
+        <div className="phone top-9 right-16 sm:left-24 lg:top-14 lg:left-36 fixed max-w-xs">
           <p className="text-paleText text-sm 2xl:text-base">
             +7 (343) 900-89-89
           </p>

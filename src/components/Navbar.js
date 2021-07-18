@@ -4,7 +4,7 @@ import img from "../images/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent flex items-center justify-between h-34 pt-3 pr-8 font-sans fixed top-0 left-0 right-0">
+    <nav className="bg-transparent flex items-center justify-between h-34 pt-3 lg:pr-8 pr-4 font-sans fixed top-0 left-0 right-0">
       <Link
         className="logo lg:w-40 w-24  items-center justify-center lg:h-28 h-16 flex"
         path="/"
@@ -27,16 +27,28 @@ const Navbar = () => {
         </svg>
       </div>
       <div className=" nav hidden md:block items-stretch">
-        <Link className="p-4 hover:text-red-500 2xl:text-lg " path="/">
+        <Link
+          className="inline-block transform hover:scale-125 transition-all p-4 hover:text-red-500 2xl:text-lg "
+          path="/"
+        >
           услуги
         </Link>
-        <Link className="p-4 hover:text-red-500 2xl:text-lg" path="/">
+        <Link
+          className="inline-block transform hover:scale-125 transition-all p-4 hover:text-red-500 2xl:text-lg"
+          path="/"
+        >
           о нас
         </Link>
-        <Link className="p-4 hover:text-red-500 2xl:text-lg" path="/">
+        <Link
+          className="inline-block transform hover:scale-125 transition-all p-4 hover:text-red-500 2xl:text-lg"
+          path="/"
+        >
           материалы
         </Link>
-        <Link className="p-4 hover:text-red-500 2xl:text-lg" path="/">
+        <Link
+          className="inline-block transform hover:scale-125 transition-all p-4 hover:text-red-500 2xl:text-lg"
+          path="/"
+        >
           контакты
         </Link>
       </div>

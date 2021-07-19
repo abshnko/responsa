@@ -15,7 +15,19 @@ module.exports = {
         lightBlue: "#A0CFD3",
         myBlue: "#ADECF1",
         lightWhite: "#F1F1F1",
+        bgText: "#6B6B6B",
       },
+      zIndex: {
+        "-3": "-3",
+        "-2": "-2",
+        "-1": "-1",
+      },
+      letterSpacing: {
+        veryWide: "0.2em",
+      },
+      backgroundImage: (theme) => ({
+        "home-back": 'url("./images/main.jpg")',
+      }),
     },
   },
   variants: {

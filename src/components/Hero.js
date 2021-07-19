@@ -13,15 +13,12 @@ const Hero = () => {
               ответы профессиональных юристов в Древнем Риме на запросы частных
               лиц и адвокатов по тем или иным вопросам юридического характера
             </p>
-            <p className="font-normal lg:text-2xl 2xl:text-2xl text-xl mt-4 2xl:mt-8 tracking-wide text-paleText">
-              Ubi jus, ibi remedium // Где право, там защита
-            </p>
           </div>
           <div className="main-logo justify-self-center lg:h-96 h-52">
             <div className="logo ">
               <Link className="flex flex-col logo items-center" path="/">
                 <img
-                  className="lg:h-60 md:h-40 2xl:h-56 h-28"
+                  className="lg:h-40 md:h-40 2xl:h-44 h-28"
                   src={logoLarge}
                   alt=""
                 />
@@ -37,18 +34,27 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col mx-11 mt-8 md:flex-row md:mx-28 lg:mx-52">
-          <button className="transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients border-lightBlue border-4 border-solid text-2xl font-light h-20 bg-lightWhite bg-opacity-80 md:w-48  lg:text-3xl lg:w-64">
+        <div className="flex flex-col mx-11 mt-8 md:flex-row md:mx-28 lg:mx-52 flex-wrap">
+          <button
+            type="button"
+            className="max-w-sm bg-gradient-to-r from-green-200 to-blue-200 hover:from-purple-300 hover:to-red-300 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 bg-lightWhite bg-opacity-80 md:w-48  lg:text-3xl lg:w-64 rounded-sm"
+          >
             частным клиентам
           </button>
-          <button className=" transform hover:scale-110 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue border-4 border-solid text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-3xl lg:w-80 lg:ml-8">
+          <button className="max-w-sm bg-gradient-to-l from-green-300 to-blue-200 hover:from-purple-300 hover:to-red-300 transform hover:scale-110 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue  text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-3xl lg:w-80 lg:ml-8 rounded-sm">
             корпоративным клиентам
           </button>
         </div>
-        <div className="phone top-9 right-16 sm:left-24 lg:top-14 lg:left-36 fixed max-w-xs">
+        <div className="phone top-9 right-16 sm:left-24 lg:top-10 lg:left-36 fixed max-w-xs z-20">
           <p className="text-paleText text-sm 2xl:text-base">
             +7 (343) 900-89-89
           </p>
+        </div>
+        <div className="year absolute bottom-7 left-14 text-paleText opacity-80">
+          <h4>2021</h4>
+        </div>
+        <div className="quote absolute bottom-7 right-14 tracking-veryWide uppercase text-paleText">
+          <h4>Ubi jus, ibi remedium // Где право, там защита</h4>
         </div>
       </div>
     </>

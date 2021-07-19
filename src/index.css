@@ -3,8 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.home {
-  background-image: url("./images/main.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+html {
+  scroll-behavior: smooth;
 }
+
+/* .home {
+  background-image: url("./images/main.jpg"), linear-gradient(#eb01a5, #d13531);
+  /* background-repeat: no-repeat;
+  background-size: cover; 
+} */

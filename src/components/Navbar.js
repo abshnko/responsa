@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav
         className={` ${
           changeColor ? "bg-white bg-opacity-90" : "bg-transparent"
-        } flex items-center justify-between h-24 lg:pr-8 pr-4 font-sans fixed top-0 left-0 right-0 z-10`}
+        } flex items-center justify-between h-16 md:h-20 lg:pr-8 pr-4 font-sans fixed top-0 left-0 right-0 z-10`}
       >
         <Link
           className="logo lg:w-40 w-24  items-center justify-center lg:h-28 h-16 flex"
@@ -34,7 +34,7 @@ const Navbar = () => {
           onClick={() => setShowNav((e) => !e)}
         >
           <svg
-            class="w-6 h-6"
+            class="w-7 h-7"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -62,13 +62,13 @@ const Navbar = () => {
             о нас
           </Link>
           <Link
-            className="inline-block transform hover:scale-125 transition-all p-4 hover:text-red-500 2xl:text-lg"
+            className="inline-block transform transition-all rounded-sm duration-300 py-1 px-4 pt-0 hover:text-white bg-gradient-to-r hover:from-purple-400 hover:via-pink-500 hover:to-red-500 2xl:text-lg"
             path="/"
           >
             материалы
           </Link>
           <Link
-            className="inline-block transform hover:scale-125 transition-all p-4 hover:text-red-500 2xl:text-lg"
+            className="inline-block transform transition-all rounded-sm duration-300 py-1 px-4 pt-0 hover:text-white bg-gradient-to-r hover:from-purple-400 hover:via-pink-500 hover:to-red-500 2xl:text-lg"
             path="/"
           >
             контакты
@@ -78,8 +78,8 @@ const Navbar = () => {
       <div
         className={`nav-mobile h-screen fixed bg-white w-full  ${
           !showNav
-            ? "opacity-0 -z-1 duration-1000 transition-all pt-9 transform"
-            : "pt-9 text-left z-50 text-3xl px-10  opacity-100  transition-all duration-700 transform "
+            ? "opacity-0 -z-1 duration-300 transition-all pt-9 transform"
+            : "pt-9 text-left z-50 text-3xl px-10  opacity-100  transition-all duration-300 transform "
         } `}
       >
         <button
@@ -100,7 +100,7 @@ const Navbar = () => {
           </svg>
         </button>
         <Link
-          className="block bg-white bg-opacity-10 pb-3 font-light tracking-wide active:text-myRed"
+          className="block  pb-3 font-light tracking-wide active:text-myRed"
           path="/"
           to="/#home"
           onClick={() => setShowNav(false)}
@@ -108,7 +108,7 @@ const Navbar = () => {
           главная
         </Link>
         <Link
-          className="block bg-white bg-opacity-10 pb-3 font-light tracking-wide active:text-myRed"
+          className="block  pb-3 font-light tracking-wide active:text-myRed"
           path="/services"
           to="/services"
           onClick={() => setShowNav(false)}
@@ -116,18 +116,14 @@ const Navbar = () => {
           услуги
         </Link>
         <Link
-          className="block bg-white bg-opacity-10 pb-3 font-light"
+          className="block  pb-3 font-light"
           path="/"
           to="/#about"
           onClick={() => setShowNav(false)}
         >
           о нас
         </Link>
-        <Link
-          className="block bg-white bg-opacity-10 pb-3 font-light"
-          path="/"
-          to="/"
-        >
+        <Link className="block   pb-3 font-light" path="/" to="/">
           материалы
         </Link>
         <Link

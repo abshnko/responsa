@@ -11,7 +11,7 @@ const Home = () => {
         className="home bg-home-back bg-no-repeat bg-cover bg-opacity-0"
         id="home"
       >
-        <div className="bg bg-white bg-opacity-60">
+        <div className="bg bg-white bg-opacity-70">
           <Navbar />
           <Hero />
         </div>

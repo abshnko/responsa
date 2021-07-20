@@ -48,14 +48,14 @@ const Navbar = () => {
         </button>
         <div className=" nav hidden sm:block items-stretch">
           <Link
-            className="inline-block transform  transition-all rounded-sm  py-1 px-4 pt-0 hover:text-white bg-gradient-to-r hover:from-purple-400 hover:via-pink-500 hover:to-red-500 2xl:text-lg tracking-wide"
+            className="inline-block transform  transition-all rounded-sm duration-300 py-1 px-4 pt-0 hover:text-white bg-gradient-to-r hover:from-purple-400 hover:via-pink-500 hover:to-red-500 2xl:text-lg tracking-wide"
             path="/services"
             to="/services"
           >
             услуги
           </Link>
           <Link
-            className="inline-block transform  transition-all rounded-sm py-1 px-4 pt-0 hover:text-white bg-gradient-to-r hover:from-purple-400 hover:via-pink-500 hover:to-red-500 2xl:text-lg"
+            className="inline-block transform  transition-all rounded-sm duration-300 py-1 px-4 pt-0 hover:text-white bg-gradient-to-r hover:from-purple-400 hover:via-pink-500 hover:to-red-500 2xl:text-lg"
             path="/#about"
             to="/#about"
           >

@@ -7,9 +7,14 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     <>
-      <div className="home bg-home-back bg-no-repeat bg-cover" id="home">
-        <Navbar />
-        <Hero />
+      <div
+        className="home bg-home-back bg-no-repeat bg-cover bg-opacity-0"
+        id="home"
+      >
+        <div className="bg bg-white bg-opacity-60">
+          <Navbar />
+          <Hero />
+        </div>
       </div>
       <div className="about">
         <AboutUs />

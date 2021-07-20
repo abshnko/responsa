@@ -28,6 +28,13 @@ module.exports = {
       backgroundImage: (theme) => ({
         "home-back": 'url("./images/main.jpg")',
       }),
+      fontSize: {
+        "10xl": "10rem",
+        "11xl": "12rem",
+        "12xl": "15rem",
+        "13xl": "18rem",
+        "14xl": "21rem",
+      },
     },
   },
   variants: {

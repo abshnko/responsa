@@ -6,9 +6,15 @@ const Hero = () => {
   return (
     <>
       <div className="h-full min-h-screen">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-12  lg:gap-48 md:gap-32 lg:items-center lg:pt-60 pt-40 lg:mr-44 lg:ml-52 mx-11">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-12  lg:gap-12 md:gap-32 lg:items-center lg:pt-72 pt-40 lg:mr-44 lg:ml-80 mx-11">
           <div className=" justify-self-center order-last lg:order-first lg:place-self-start lg:mt-9">
             <p className="font-normal tracking-wide lg:text-2xl 2xl:text-3xl text-xl text-gray-800 ">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              rhoncus turpis ut purus tristique ultrices. Aliquam auctor mi at
+              congue imperdiet. Vestibulum sit amet sapien vel lorem egestas
+              aliquam ac at elit.
+            </p>
+            <p className="mt-16 text-left text-xl text-paleText">
               RESPONSA PRUDENTIUM — <br />
               ответы профессиональных юристов в Древнем Риме на запросы частных
               лиц и адвокатов по тем или иным вопросам юридического характера
@@ -34,7 +40,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col mx-11 mt-8 md:flex-row md:mx-28 lg:mx-52 flex-wrap">
+        <div className="flex flex-col mx-11 mt-8 md:flex-row md:mx-28 lg:mx-80 flex-wrap">
           <button
             type="button"
             className="max-w-sm bg-gradient-to-r from-green-200 to-blue-200 hover:from-purple-300 hover:to-red-300 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 bg-lightWhite bg-opacity-80 md:w-48  lg:text-3xl lg:w-64 rounded-sm"

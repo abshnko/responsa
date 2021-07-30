@@ -6,18 +6,18 @@ const Hero = () => {
   return (
     <>
       <div className="h-full min-h-screen">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-12  lg:gap-24 md:gap-32 lg:items-center lg:pt-48 xl:pt-48 2xl:pt-60 pt-32 lg:mr-44 xl:ml-80 lg:ml-44 mx-11">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-12  lg:gap-24 md:gap-32 lg:items-center lg:pt-48 xl:pt-48 2xl:pt-60 pt-24 lg:mr-44 xl:ml-80 lg:ml-44 mx-11">
           <div className=" justify-self-center order-last lg:order-first lg:place-self-start lg:mt-9">
-            <p className="font-normal tracking-wide lg:text-2xl 2xl:text-3xl text-xl text-gray-800 ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              rhoncus turpis ut purus tristique ultrices. Aliquam auctor mi at
-              congue imperdiet. Vestibulum sit amet sapien vel lorem egestas
-              aliquam ac at elit.
+            <p className="font-medium text-lg tracking-wide lg:text-xl 2xl:text-xl sm:text-xl">
+              Responsa – команда профессионалов, более 20-ти лет осуществляющих
+              правовую экспертизу в гражданских и корпоративных спорах, делах о
+              банкротстве.
             </p>
-            <p className="mt-11 text-left text-xl text-paleText">
-              RESPONSA PRUDENTIUM — <br />
-              ответы профессиональных юристов в Древнем Риме на запросы частных
-              лиц и адвокатов по тем или иным вопросам юридического характера
+            <p className="font-medium text-lg mt-5 tracking-wide lg:text-xl 2xl:text-xl sm:text-xl">
+              Мы сопровождаем текущие интересы корпоративных клиентов, сделки,
+              осуществляем представительство интересов организаций и граждан во
+              всех государственных и муниципальных органах, включая
+              контрольно-надзорные органы, а также в судах всех уровней.
             </p>
           </div>
           <div className="main-logo justify-self-center lg:h-96 h-52">
@@ -43,15 +43,15 @@ const Hero = () => {
         <div className="flex flex-col mx-11 mt-8 md:flex-row md:mx-28  xl:mx-80 lg:mx-44 pb-4">
           <button
             type="button"
-            className="max-w-sm bg-gradient-to-r from-green-200 to-blue-200 hover:from-purple-300 hover:to-red-300 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 bg-lightWhite bg-opacity-80 md:w-48  lg:text-2xl lg:w-64 rounded-sm"
+            className="max-w-sm bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 lg:h-16 bg-lightWhite bg-opacity-80 md:w-48  lg:text-xl lg:w-52 rounded-sm"
           >
             частным клиентам
           </button>
-          <button className="max-w-sm bg-gradient-to-l from-green-300 to-blue-200 hover:from-purple-300 hover:to-red-300 transform hover:scale-110 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue  text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-2xl lg:w-80 lg:ml-8 rounded-sm">
+          <button className="max-w-sm bg-gradient-to-l from-Pink to-Purple text-white transform hover:scale-110 hover:from-green-500 hover:to-blue-400 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue  text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-xl lg:w-72 lg:ml-8 lg:h-16 rounded-sm">
             корпоративным клиентам
           </button>
         </div>
-        <div className="phone top-6 right-16 sm:left-24 lg:top-10 lg:left-36 fixed max-w-xs z-20">
+        <div className="phone top-6 right-16 sm:left-24 lg:top-8 lg:left-36 fixed max-w-xs z-20">
           <p className="text-paleText text-sm 2xl:text-base">
             +7 (343) 900-89-89
           </p>

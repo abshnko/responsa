@@ -1,8 +1,10 @@
 import React from "react";
 import AboutUs from "../components/AboutUs";
-import ForClientsMarkup from "../components/ForClientsMarkup";
+import PrivateClients from "../components/PrivateClients";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Services from "./Services";
+import CorporateClients from "../components/CorporateClients";
 
 const Home = () => {
   return (
@@ -16,11 +18,17 @@ const Home = () => {
           <Hero />
         </div>
       </div>
-      <div className="about">
+      <div className="about" id="about">
         <AboutUs />
       </div>
-      <div className="clients">
-        <ForClientsMarkup />
+      <div className="private" id="private">
+        <PrivateClients />
+      </div>
+      <div className="corporate" id="corporate">
+        <CorporateClients />
+      </div>
+      <div className="services" id="services">
+        <Services />
       </div>
     </>
   );

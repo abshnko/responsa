@@ -16,6 +16,13 @@ module.exports = {
         myBlue: "#ADECF1",
         lightWhite: "#F1F1F1",
         bgText: "#6B6B6B",
+        Pink: {
+          DEFAULT: "rgba(243, 25, 65, 0.79)",
+        },
+        Purple: {
+          DEFAULT: "rgba(184, 103, 181, 1)",
+        },
+        greyBG: "#F5F5F5",
       },
       zIndex: {
         "-3": "-3",
@@ -34,6 +41,11 @@ module.exports = {
         "12xl": "15rem",
         "13xl": "18rem",
         "14xl": "21rem",
+      },
+      margin: {
+        "-100": "-30rem",
+        "-101": "-34rem",
+        "-102": "-36rem",
       },
     },
   },

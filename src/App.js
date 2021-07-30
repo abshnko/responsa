@@ -10,7 +10,6 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/services" component={Services}></Route>
           <Route path="/" component={Home}></Route>
         </Switch>
       </Router>

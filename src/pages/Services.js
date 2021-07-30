@@ -2,12 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 const Services = () => {
-  return (
-    <div>
-      <Navbar />
-      услуги
-    </div>
-  );
+  return <div className="h-screen">услуги</div>;
 };
 
 export default Services;

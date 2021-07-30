@@ -4,7 +4,7 @@ import scale from "../images/scale.jpg";
 const AboutUs = () => {
   return (
     <>
-      <div className=" h-screen" id="about">
+      <div className=" h-screen">
         <div className="flex">
           <h1 className="text-paleText font-display text-2xl mx-auto mt-16 md:mt-20 inline-block md:text-4xl">
             О <span className="text-myRed">НАС</span>
@@ -26,12 +26,10 @@ const AboutUs = () => {
               congue imperdiet. Vestibulum sit amet sapien vel lorem egestas
               aliquam ac at elit.
             </p>
-            <p className="font-light text-xl">
-              Integer varius dui sit amet lectus faucibus tincidunt. Aenean
-              suscipit viverra ante, in ornare sem semper mattis. Mauris ac
-              ligula ac mi rutrum suscipit sit amet eu ligula. Nunc et vulputate
-              felis. Cras sit amet ornare quam. Fusce ac risus ut libero rhoncus
-              pretium. In hac habitasse platea dictumst.
+            <p className="hidden sm:block mt-7 sm:mt-11 text-left sm:text-xl text-paleText">
+              RESPONSA PRUDENTIUM — <br />
+              ответы профессиональных юристов в Древнем Риме на запросы частных
+              лиц и адвокатов по тем или иным вопросам юридического характера
             </p>
           </div>
           <div className="picture hidden md:block md:max-h-4 md:max-w-xs -mt-52 lg:max-h-5 lg:max-w-sm">

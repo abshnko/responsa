@@ -1,9 +1,10 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const ForClientsMarkup = () => {
   return (
     <>
-      <div className=" bg-greyBG h-screen">
+      <div className=" bg-greyBG lg:h-screen h-full">
         <div className="flex">
           <h1 className="text-paleText font-display text-2xl mx-auto mt-20 md:mt-20 inline-block md:text-4xl">
             ЧАСТНЫМ <span className="text-myRed">КЛИЕНТАМ</span>
@@ -25,6 +26,12 @@ const ForClientsMarkup = () => {
               congue imperdiet. Vestibulum sit amet sapien vel lorem egestas
               aliquam ac at elit.
             </p>
+            <button
+              type="button"
+              className="md:block hidden mt-6 bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white  private-clients  text-xl font-light h-12 bg-lightWhite md:w-48 px-4  lg:text-2xl lg:w-64 rounded-sm md:static md:bottom-7"
+            >
+              <Link to="#services">стоимость услуг</Link>
+            </button>
           </div>
           <div className="card md:max-h-4 md:max-w-xs lg:max-h-5 lg:max-w-sm md:-mt-101 mt-12">
             <ul>
@@ -91,9 +98,9 @@ const ForClientsMarkup = () => {
             </ul>
             <button
               type="button"
-              className="mt-6 bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white  private-clients  text-xl font-light h-12 bg-lightWhite md:w-48 px-4  lg:text-2xl lg:w-64 rounded-sm"
+              className="block md:hidden my-6 mb-0 bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white  private-clients  text-xl font-light h-12 bg-lightWhite md:w-48 px-4  lg:text-2xl lg:w-64 rounded-sm "
             >
-              стоимость услуг
+              <Link to="#services">стоимость услуг</Link>
             </button>
           </div>
         </div>

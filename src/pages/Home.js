@@ -3,8 +3,9 @@ import AboutUs from "../components/AboutUs";
 import PrivateClients from "../components/PrivateClients";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Services from "./Services";
+import Services from "../components/Services";
 import CorporateClients from "../components/CorporateClients";
+import Contacts from "../components/Contacts";
 
 const Home = () => {
   return (
@@ -29,6 +30,9 @@ const Home = () => {
       </div>
       <div className="services" id="services">
         <Services />
+      </div>
+      <div className="contacts" id="contacts">
+        <Contacts />
       </div>
     </>
   );

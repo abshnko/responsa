@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import logoLarge from "../images/logo-LARGE.png";
 
 const Hero = () => {
@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <div className="h-full min-h-screen">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-12  lg:gap-24 md:gap-32 lg:items-center lg:pt-48 xl:pt-48 2xl:pt-60 pt-24 lg:mr-44 xl:ml-80 lg:ml-44 mx-11">
-          <div className=" justify-self-center order-last lg:order-first lg:place-self-start lg:mt-9">
+          <div className=" justify-self-center order-last lg:order-first lg:place-self-start lg:mt-14">
             <p className="font-medium text-lg tracking-wide lg:text-xl 2xl:text-xl sm:text-xl">
               Responsa – команда профессионалов, более 20-ти лет осуществляющих
               правовую экспертизу в гражданских и корпоративных спорах, делах о
@@ -45,10 +45,10 @@ const Hero = () => {
             type="button"
             className="max-w-sm bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 lg:h-16 bg-lightWhite bg-opacity-80 md:w-48  lg:text-xl lg:w-52 rounded-sm"
           >
-            частным клиентам
+            <Link to="#private">частным клиентам</Link>
           </button>
           <button className="max-w-sm bg-gradient-to-l from-Pink to-Purple text-white transform hover:scale-110 hover:from-green-500 hover:to-blue-400 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue  text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-xl lg:w-72 lg:ml-8 lg:h-16 rounded-sm">
-            корпоративным клиентам
+            <Link to="#corporate"> корпоративным клиентам</Link>
           </button>
         </div>
         <div className="phone top-6 right-16 sm:left-24 lg:top-8 lg:left-36 fixed max-w-xs z-20">

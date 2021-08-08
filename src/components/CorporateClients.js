@@ -92,7 +92,7 @@ const CorporateClients = () => {
             </ul>
             <button
               type="button"
-              className="hidden md:block mt-6 bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white  private-clients  text-xl font-light h-12 bg-lightWhite md:w-48 px-4  lg:text-2xl lg:w-64 rounded-sm"
+              className="hidden md:block mt-6 bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white  private-clients  text-xl font-light h-12 bg-lightWhite md:w-48 px-4  lg:text-xl lg:w-44 rounded-sm"
             >
               <Link to="#services">стоимость услуг</Link>
             </button>

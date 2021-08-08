@@ -26,7 +26,7 @@ const AboutUs = () => {
               congue imperdiet. Vestibulum sit amet sapien vel lorem egestas
               aliquam ac at elit.
             </p>
-            <p className="hidden sm:block mt-7 sm:mt-11 text-left sm:text-xl text-paleText">
+            <p className="block mt-7 sm:mt-11 text-left sm:text-xl text-paleText">
               RESPONSA PRUDENTIUM — <br />
               ответы профессиональных юристов в Древнем Риме на запросы частных
               лиц и адвокатов по тем или иным вопросам юридического характера

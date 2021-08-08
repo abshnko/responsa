@@ -70,6 +70,7 @@ const Navbar = () => {
           <Link
             className="inline-block transform transition-all rounded-sm duration-300 py-1 px-4 pt-0 hover:text-white bg-gradient-to-r hover:from-purple-400 hover:via-pink-500 hover:to-red-500 2xl:text-lg"
             path="/"
+            to="/#contacts"
           >
             контакты
           </Link>

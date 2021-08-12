@@ -41,15 +41,19 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex flex-col mx-11 mt-8 md:flex-row md:mx-28  xl:mx-80 lg:mx-44 pb-4">
-          <button
-            type="button"
-            className="max-w-sm bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 lg:h-16 bg-lightWhite bg-opacity-80 md:w-48  lg:text-xl lg:w-52 rounded-sm"
-          >
-            <Link to="#private">частным клиентам</Link>
-          </button>
-          <button className="max-w-sm bg-gradient-to-l from-Pink to-Purple text-white transform hover:scale-110 hover:from-green-500 hover:to-blue-400 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue  text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-xl lg:w-72 lg:ml-8 lg:h-16 rounded-sm">
-            <Link to="#corporate"> корпоративным клиентам</Link>
-          </button>
+          <Link to="#private">
+            <button
+              type="button"
+              className="max-w-sm bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 lg:h-16 bg-lightWhite bg-opacity-80 md:w-48  lg:text-xl lg:w-52 rounded-sm"
+            >
+              частным клиентам
+            </button>
+          </Link>
+          <Link to="#corporate">
+            <button className="max-w-sm bg-gradient-to-l from-Pink to-Purple text-white transform hover:scale-110 hover:from-green-500 hover:to-blue-400 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue  text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-xl lg:w-72 lg:ml-8 lg:h-16 rounded-sm">
+              корпоративным клиентам
+            </button>
+          </Link>
         </div>
         <div className="phone top-6 right-16 sm:left-24 lg:top-8 lg:left-36 fixed max-w-xs z-20">
           <p className="text-paleText text-sm 2xl:text-base">

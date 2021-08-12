@@ -26,12 +26,14 @@ const PrivateClients = () => {
               congue imperdiet. Vestibulum sit amet sapien vel lorem egestas
               aliquam ac at elit.
             </p>
-            <button
-              type="button"
-              className="md:block hidden mt-6 bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white  private-clients  text-xl font-light h-12 bg-lightWhite md:w-48 px-4  lg:text-xl lg:w-44 rounded-sm md:static md:bottom-7"
-            >
-              <Link to="#services">стоимость услуг</Link>
-            </button>
+            <Link to="#services">
+              <button
+                type="button"
+                className="md:block hidden mt-6 bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white  private-clients  text-xl font-light h-12 bg-lightWhite md:w-48 px-4  lg:text-xl lg:w-44 rounded-sm md:static md:bottom-7"
+              >
+                стоимость услуг
+              </button>
+            </Link>
           </div>
           <div className="card md:max-h-4 md:max-w-xs lg:max-h-5 lg:max-w-sm md:-mt-1005 mt-12">
             <ul>

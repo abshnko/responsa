@@ -130,7 +130,8 @@ const Navbar = () => {
         <Link
           className="block bg-white bg-opacity-10 font-light"
           path="/"
-          to="/"
+          to="/#contacts"
+          onClick={() => setShowNav(false)}
         >
           контакты
         </Link>

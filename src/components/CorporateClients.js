@@ -99,7 +99,7 @@ const CorporateClients = () => {
               </button>
             </Link>
           </div>
-          <div className="card md:max-h-4 md:max-w-xs lg:max-h-5 lg:max-w-sm  lg:-mt-98 md:-mt-100 mt-4 mx-10">
+          <div className="card md:max-h-4 md:max-w-xs lg:max-h-5 lg:max-w-sm  lg:-mt-98 md:-mt-100 mx-10">
             <ul>
               <li className="text-xl pb-2">
                 <svg

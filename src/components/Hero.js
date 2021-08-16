@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <>
       <div className="h-full min-h-screen">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-12  lg:gap-24 md:gap-32 lg:items-center lg:pt-48 xl:pt-48 2xl:pt-60 pt-24 lg:mr-44 xl:ml-80 lg:ml-44 mx-11">
-          <div className=" justify-self-center order-last lg:order-first lg:place-self-start lg:mt-14">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-12  lg:gap-24 md:gap-32 lg:items-center lg:pt-48  xl:pt-48 2xl:pt-60 pt-24 lg:mr-44 xl:ml-80 lg:ml-44 mx-11">
+          <div className=" justify-self-center order-last lg:order-first lg:place-self-start lg:mt-20">
             <p className="font-medium text-lg tracking-wide lg:text-xl 2xl:text-xl sm:text-xl">
               Responsa – команда профессионалов, более 20-ти лет осуществляющих
               правовую экспертизу в гражданских и корпоративных спорах, делах о
@@ -20,7 +20,7 @@ const Hero = () => {
               контрольно-надзорные органы, а также в судах всех уровней.
             </p>
           </div>
-          <div className="main-logo justify-self-center lg:h-96 h-52">
+          <div className="main-logo justify-self-center lg:h-96 h-52 lg:mt-14">
             <div className="logo ">
               <Link className="flex flex-col logo items-center" path="/">
                 <img
@@ -44,13 +44,13 @@ const Hero = () => {
           <Link to="#private">
             <button
               type="button"
-              className="max-w-sm bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 lg:h-16 bg-lightWhite bg-opacity-80 md:w-48  lg:text-xl lg:w-52 rounded-sm"
+              className=" w-full bg-gradient-to-r from-Pink to-Purple text-white hover:from-green-500 hover:to-blue-400 transform hover:scale-110 transition-all  hover:bg-white hover:border-myBlue private-clients  border-solid text-2xl font-light h-20 lg:h-16 bg-lightWhite bg-opacity-80 md:w-48  lg:text-xl lg:w-52 rounded-sm"
             >
               частным клиентам
             </button>
           </Link>
           <Link to="#corporate">
-            <button className="max-w-sm bg-gradient-to-l from-Pink to-Purple text-white transform hover:scale-110 hover:from-green-500 hover:to-blue-400 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue  text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-xl lg:w-72 lg:ml-8 lg:h-16 rounded-sm">
+            <button className="w-full bg-gradient-to-l from-Pink to-Purple text-white transform hover:scale-110 hover:from-green-500 hover:to-blue-400 transition-all hover:bg-white hover:border-myBlue corporate-clients border-lightBlue  text-2xl font-light h-20 bg-lightWhite bg-opacity-80 mt-4 md:mt-0 md:ml-4 md:w-64 lg:text-xl lg:w-72 lg:ml-8 lg:h-16 rounded-sm">
               корпоративным клиентам
             </button>
           </Link>
